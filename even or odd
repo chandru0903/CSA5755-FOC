@@ -1,0 +1,35 @@
+[10:36 am, 12/01/2023] +91 94409 02004: #include <stdio.h>
+
+int main()
+{
+    int i, n, sum=0;
+
+    /* Input upper limit from user */
+    printf("Enter upper limit: ");
+    scanf("%d", &n);
+
+    for(i=2; i<=n; i+=2)
+    {
+        /* Add current even number to sum */
+        sum += i;
+    }
+
+    printf("Sum of all even number between 1 to %d = %d", n, sum);
+
+    return 0;
+}
+[10:36 am, 12/01/2023] +91 94409 02004: even number of series
+[10:36 am, 12/01/2023] +91 94409 02004: #include <stdio.h>
+int main() {
+    int num;
+    printf("Enter an integer: ");
+    scanf("%d", &num);
+
+    // true if num is perfectly divisible by 2
+    if(num % 2 == 0)
+        printf("%d is even.", num);
+    else
+        printf("%d is odd.", num);
+    
+    return 0;
+}
